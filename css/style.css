@@ -52,11 +52,11 @@
     .nav-link {
         color: #2F3684;
     }
-}
-
-@media (max-width: 767px) {
     .first-nav {
         justify-content: space-around;
+    }
+    .pagina-principal{
+        background-color: #d7dbea9f;
     }
 }
 
@@ -154,9 +154,13 @@ footer {
     border-color: #2F3684;
 }
 
+.img-container {
+    display: flex;
+    
+}
 .img-form {
     float:right;
-    width: 500px;
+    justify-content: right;
   }
 /*Novedades*/
 .novedades h3 {
