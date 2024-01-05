@@ -141,7 +141,6 @@ footer {
 
 .form {
     color: #2F3684;
-    display: flex;
 
 }
 
@@ -162,6 +161,7 @@ footer {
     float:right;
     justify-content: right;
   }
+
 /*Novedades*/
 .novedades h3 {
     color: #2F3684;
@@ -183,11 +183,17 @@ footer {
     justify-content: right;
     display: flex;
     box-shadow: 0 1px 5px #D7DBEA;
-    max-width: 100%;
-    height: auto; 
+    width: 500px;
 }
   
 .img-container-news {
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
+
+.table-responsive {
+    margin: 0.5rem;
+}
   
+.table-bordered {
+    border-color: #2F3684;
+  }
