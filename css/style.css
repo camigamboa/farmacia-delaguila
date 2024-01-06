@@ -96,6 +96,7 @@
 .card-body {
     color: #2F3684;
 }
+
 .btn {
     border: 1px solid #2F3684;
     border-radius: 5px;
@@ -190,6 +191,7 @@ footer {
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
 
+/*Listado*/
 .table-responsive {
     margin: 0.5rem;
 }
@@ -197,3 +199,60 @@ footer {
 .table-bordered {
     border-color: #2F3684;
   }
+
+.valida {
+    background-color: #F8934E;
+}
+
+.link-mandataria {
+    text-decoration: none;
+    color: #2F3684;
+    font-weight: bold;
+}
+
+.link-mandataria:hover {
+    color: #F8934E;
+}
+
+.link-obs {
+    color: #2F3684;
+    font-weight: bold;
+}
+
+td , th{
+    text-align: center;
+}
+/*Normas*/
+.mandataria {
+    border: 2px solid #2F3684;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 0.5rem;
+    box-shadow: 0 1px 2px #2F3684;
+}
+
+/*Normas PDF*/
+h1 {
+    color: #2F3684;
+}
+
+.link-ooss a{
+    color: #2F3684;
+    font-size: 20px;
+}
+
+.link-ooss a:hover {
+    color: #F8934E;
+}
+
+/*Prestadores*/
+
+.list-prest {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.listado-img {
+    width: 500px;
+    float: right;
+}
