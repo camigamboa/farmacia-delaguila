@@ -24,7 +24,7 @@
           <input class="form-control mr-sm-2 busqueda" type="text" placeholder="Buscar">
         </form>
         <div class="user">
-          <a href="../pages/ingresar.html"><img src="../assets/user.png" alt="Logo user"> Ingresar</a>
+          <a href=""><img src="../assets/user.png" alt="Logo user"> Ingresar</a>
         </div> 
       </nav>
       <!--Second-Nav-->
@@ -46,7 +46,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/novedades.html">Novedades</a>
-            </li>
+            </li>   
             <li class="nav-item">
               <a class="nav-link" href="../pages/contacto.html">Contacto</a>
             </li>
@@ -54,63 +54,34 @@
       </nav>
    </header>
 
-   <!--Formulario-->
-   <main class="form">
-    <div class="forms">
-    <form class="row-cols-md-3 formulario">
-      <div class="col-md-3">
-        <label for="name" class="form-label">Nombre</label>
-        <input type="text" class="form-control contact" id="name" required>
+    <main>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+            <div class="card iniciar-sesion">
+                <div class="card-header">
+                    <h4 class="mb-0">Inicio de Sesión</h4>
+                </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="username">Usuario:</label>
+              <input type="text" class="form-control login" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Contraseña:</label>
+              <input type="password" class="form-control login" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-iniciar">Iniciar Sesión</button>
+          </form>
+        </div>
       </div>
-      <div class="col-md-3">
-        <label for="email" class="form-label">Correo</label>
-        <input type="email" class="form-control contact" id="email" required>
-      </div>
-      <div class="col-md-3">
-        <label for="farmacia" class="form-label">Farmacia</label>
-        <select id="farmacia" class="form-select contact" required>
-          <option selected>Del Águila</option>
-          <option>Polvorines</option>
-          <option>Jure</option>
-          <option>Torcuato</option>
-        </select>
-      </div>
-      <div class="col-md-4">
-        <label for="motivo" class="form-label">Asunto</label>
-        <input type="text" class="form-control contact" id="motivo" placeholder="" required>
-      </div>
-      <div class="col-6 mb-3">
-        <label for="detalle" class="form-label">Detalle</label>
-        <textarea class="form-control contact" id="detalle" rows="3"></textarea>
-      </div>
-      <div class="col-6 mb-3">
-        <label class="subir" for="inputGroupFile02">Subir</label>
-        <input type="file" class="form-control contact" id="inputGroupFile02">
-      </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </div>     
-    </form>
     </div>
+  </div>
+</div>
    </main>
 
-  <!--Pie de Pagina-->
-  <footer>
-    <!--Logo-->           
-    <div>
-      <!--Tres espacios-->
-    </div>
-    <div class="copyright">
-        <li class="contacto-footer">
-          <a href="../pages/contacto.html">Contacto</a>
-        </li>
-        <p>Copyright 2023 - Farmacias Del Aguila</p>
-    </div>
-    <div class="logo-footer">
-      <img src="../assets/iconoaguilaon 1.svg" alt="Logo de la empresa" />
-    </div>  
-  </footer>
-
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>

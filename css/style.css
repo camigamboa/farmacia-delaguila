@@ -223,6 +223,7 @@ footer {
 td , th{
     text-align: center;
 }
+
 /*Normas*/
 .card-mandataria {
     border: 2px solid #2F3684;
@@ -261,4 +262,20 @@ h1 {
 .listado-img {
     width: 500px;
     float: right;
+}
+
+/*Ingresar*/
+
+.iniciar-sesion {
+    color: #2F3684;
+    
+}
+
+.login {
+    border-color: #2F3684;
+}
+
+.btn-iniciar {
+    background-color: #2F3684;
+    margin-top: 0.5rem;
 }
