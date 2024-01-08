@@ -98,6 +98,17 @@
     color: #2F3684;
 }
 
+.card-blue:hover {
+    border: 2px solid #D7DBEA;
+    margin: 1rem;
+    transition: 300ms;
+}
+
+.card-orange:hover {
+    border: 2px solid #D7DBEA;
+    margin: 1rem;
+    transition: 300ms;
+}
 .btn {
     border: 1px solid #2F3684;
     border-radius: 5px;
