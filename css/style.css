@@ -105,10 +105,11 @@
 }
 
 .card-orange:hover {
-    border: 2px solid #D7DBEA;
+    border: 2px solid #f8924e6a;
     margin: 1rem;
     transition: 300ms;
 }
+
 .btn {
     border: 1px solid #2F3684;
     border-radius: 5px;
@@ -247,6 +248,11 @@ td , th{
 .card-mandataria a{
     text-decoration: none;
     text-align: center;
+}
+
+.card-mandataria:hover {
+    border: 2px solid #f8924e8a;
+    margin: 0rem;
 }
 
 /*Normas PDF*/
