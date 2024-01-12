@@ -1,0 +1,58 @@
+/*Barras de nav*/
+
+header {
+    .buscar {
+        border-radius: 20px;
+        border: 1px solid white;
+        background: $colorAzulSecundario;
+        box-shadow: $colorAzulSecundario;
+        border-color: $colorAzulPrincipal;
+        }
+      
+      .busqueda {
+          border: none;
+          background: transparent;
+          padding-left: 25px;
+          
+      }
+
+      .user a {
+        text-decoration: none;
+        color: $colorAzulPrincipal;
+        font-weight: bold;
+    }
+}
+
+.second-nav {
+        background-color: $colorAzulPrincipal;
+        box-shadow: 0 1px 2px $colorAzulPrincipal;
+        list-style-type: none;
+
+        .dropdown-menu {
+            background-color: $colorAzulPrincipal;
+
+            .dropdown-item {
+                background-color: $colorAzulPrincipal ;
+                color: white;
+                
+                &:hover {
+                    color: $colorAzulPrincipal;
+                    text-decoration: none;
+                    background-color: white;
+                }
+
+                &:active {
+                        color: white;
+                        text-decoration: none;
+                        background-color: $colorNaranjaPrincipal;
+                }  
+            }
+        }
+          
+        
+    } 
+
+    .nav-link {
+        color: white;
+    }
+

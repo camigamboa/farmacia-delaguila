@@ -1,0 +1,24 @@
+/*Prestadores*/
+  
+.list-prest {
+    display: flex;
+    margin-top: 1rem;
+
+    .link-ooss a{
+      color: $colorAzulPrincipal;
+      font-size: 20px;
+      
+      &:hover {
+          color: $colorNaranjaPrincipal;
+      }
+  }
+}
+
+.listado-img {
+    width: 500px;
+    float: right;
+}
+
+.title {
+    color: $colorAzulPrincipal;
+}

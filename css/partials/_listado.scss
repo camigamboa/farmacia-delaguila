@@ -1,0 +1,30 @@
+/*Listado*/
+
+.table-responsive {
+    margin: 0.5rem;
+
+    .table-bordered {
+      border-color: $colorAzulPrincipal;
+    }
+}
+
+tbody {
+  .link-mandataria {
+      text-decoration: none;
+      color: $colorAzulPrincipal;
+      font-weight: bold;
+
+      &:hover {
+          color: $colorNaranjaPrincipal;
+      }
+  }
+
+  .link-obs {
+      color: $colorAzulPrincipal;
+      font-weight: bold;
+  }
+
+  td , th{
+      text-align: center;
+  }
+}

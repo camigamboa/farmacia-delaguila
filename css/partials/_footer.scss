@@ -1,0 +1,26 @@
+ /*Footer*/
+  
+ footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $colorAzulSecundario;
+    box-shadow: 0 1px 5px $colorAzulSecundario;
+    border: 1px solid $colorAzulPrincipal;
+
+    .copyright {
+      text-align: center;
+      font-size: 14px; 
+      color: $colorAzulPrincipal;
+      
+      .contacto-footer {
+          list-style-type: none;
+
+          a {
+              color: $colorAzulPrincipal;
+            }
+      }
+       
+  }
+}

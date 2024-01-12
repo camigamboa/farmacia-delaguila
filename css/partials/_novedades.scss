@@ -1,0 +1,29 @@
+/*Novedades*/
+
+.novedades {
+    margin-left: 1rem;
+    display: flex;
+
+    h3 {
+        color: $colorAzulPrincipal;
+        font-weight: bold;
+    }
+
+    li {
+        color: $colorAzulPrincipal;
+        font-weight: bold;
+    }
+}
+  
+    .img-container-news {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+    .news-img {
+        float: right;
+        border-radius: 50px;
+        justify-content: right;
+        display: flex;
+        box-shadow: 0 1px 5px $colorAzulSecundario;
+        width: 500px;
+    }
+  }  

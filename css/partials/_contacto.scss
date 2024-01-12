@@ -1,0 +1,32 @@
+ /*Formulario*/
+  
+ .form {
+    color: $colorAzulPrincipal;
+  
+    .formulario {
+      margin-left: 0.5rem;
+      margin-top: 0.5rem;
+  }
+
+  .contact {
+      border-color: $colorAzulPrincipal;
+  }
+}
+
+.btn-form {
+  .btn {
+    border: 1px solid $colorAzulPrincipal;
+    border-radius: 5px;
+    background-color: $colorAzulPrincipal;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+
+    &:hover {
+        background-color: $colorAzulSecundario;
+        color: $colorAzulPrincipal;
+    
+    }
+}
+}

@@ -1,0 +1,38 @@
+ /*Normas*/
+ .card-mandataria {
+    border: 2px solid $colorAzulPrincipal;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0 1px 2px $colorAzulPrincipal;
+
+    a{
+      text-decoration: none;
+      text-align: center;
+      color: $colorAzulPrincipal;
+  }
+
+  &:hover {
+      border: 2px solid $colorNaranjaSecundario;
+      margin: 0rem;
+      transition: 300ms;
+}
+}  
+/*Normas PDF*/
+
+.title-normas a {
+      color: $colorAzulPrincipal;
+      text-decoration: none;
+
+      &:hover {
+        color: $colorNaranjaPrincipal;
+      }
+} 
+.link-ooss a{
+    color: $colorAzulPrincipal;
+    font-size: 20px;
+    
+    &:hover {
+        color: $colorNaranjaPrincipal;
+    }
+}
