@@ -295,9 +295,11 @@ tbody td, tbody th {
     font-size: 1.2rem;
   }
 }
-@media (max-width: 1099px) {
-  .col-sm-6 {
-    flex: 0 0 auto;
-    width: 50%;
+@media (max-width: 1098px) {
+  .pagina-principal .card-body {
+    color: #2F3684;
+  }
+  .pagina-principal .card-body .card-title {
+    font-size: 25px;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -26,9 +26,15 @@
      }
 }
 
-@media (max-width: 1099px) {
-    .col-sm-6 {
-        flex: 0 0 auto;
-        width: 50%;
+@media (max-width: 1098px) {
+    .pagina-principal {
+        .card-body {
+            color: $colorAzulPrincipal;
+    
+            .card-title {
+                font-size: 25px;
+            }
     }
+    
+}
 }
