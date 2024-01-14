@@ -1,13 +1,12 @@
  /*Footer*/
   
  footer {
-    margin-top: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: $colorAzulSecundario;
+    background-color: white;
     box-shadow: 0 1px 5px $colorAzulSecundario;
-    border: 1px solid $colorAzulPrincipal;
+    border-top: 2px solid $colorAzulPrincipal;
 
     .copyright {
       text-align: center;

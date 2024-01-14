@@ -102,13 +102,12 @@ main {
 
 /*Footer*/
 footer {
-  margin-top: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #D7DBEA;
+  background-color: white;
   box-shadow: 0 1px 5px #D7DBEA;
-  border: 1px solid #2F3684;
+  border-top: 2px solid #2F3684;
 }
 footer .copyright {
   text-align: center;
@@ -294,5 +293,11 @@ tbody td, tbody th {
   }
   body {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 1099px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
   }
 }/*# sourceMappingURL=styles.css.map */

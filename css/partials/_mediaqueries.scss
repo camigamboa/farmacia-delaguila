@@ -25,3 +25,10 @@
         font-size: 1.2rem;
      }
 }
+
+@media (max-width: 1099px) {
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
