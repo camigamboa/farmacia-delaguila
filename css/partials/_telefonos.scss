@@ -1,0 +1,41 @@
+.telefonos {
+
+    padding: 0.5rem;
+    
+    .card {
+        border: none;
+        height: auto;
+        border: 1px solid $colorAzulPrincipal;
+    }
+
+    .card-title{
+        font-weight: bold;
+    }
+
+    .card-body {
+        li {
+            font-weight: bold;
+        }
+     
+    }
+    .card-title, .card-body , .card {
+        color: $colorAzulPrincipal;
+        
+        a {
+            color: $colorAzulPrincipal;
+
+            &:hover {
+                color: $colorNaranjaPrincipal;
+            }
+        }
+    }
+
+
+    .img-tel {
+        width: 25px;
+    }
+
+    .img-wapp {
+        width: 25px;
+    }
+}

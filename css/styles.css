@@ -1,5 +1,8 @@
 /*Variables*/
 /*Barras de nav*/
+header {
+  padding-top: 1rem;
+}
 header .buscar {
   border-radius: 20px;
   border: 1px solid white;
@@ -22,6 +25,7 @@ header .user a {
   background-color: #2F3684;
   box-shadow: 0 1px 2px #2F3684;
   list-style-type: none;
+  margin-top: 0.5rem;
 }
 .second-nav .dropdown-menu {
   background-color: #2F3684;
@@ -43,6 +47,9 @@ header .user a {
 
 .nav-link {
   color: white;
+}
+.nav-link:hover {
+  color: #F8934E;
 }
 
 /*Container Index*/
@@ -270,6 +277,36 @@ tbody td, tbody th {
   color: white;
 }
 
+.telefonos {
+  padding: 0.5rem;
+}
+.telefonos .card {
+  border: none;
+  height: auto;
+  border: 1px solid #2F3684;
+}
+.telefonos .card-title {
+  font-weight: bold;
+}
+.telefonos .card-body li {
+  font-weight: bold;
+}
+.telefonos .card-title, .telefonos .card-body, .telefonos .card {
+  color: #2F3684;
+}
+.telefonos .card-title a, .telefonos .card-body a, .telefonos .card a {
+  color: #2F3684;
+}
+.telefonos .card-title a:hover, .telefonos .card-body a:hover, .telefonos .card a:hover {
+  color: #F8934E;
+}
+.telefonos .img-tel {
+  width: 25px;
+}
+.telefonos .img-wapp {
+  width: 25px;
+}
+
 @media (max-width: 767px) {
   .second-nav {
     background-color: #fff;
@@ -301,5 +338,10 @@ tbody td, tbody th {
   }
   .pagina-principal .card-body .card-title {
     font-size: 25px;
+  }
+}
+@media (max-width: 805px) {
+  .telefonos h5 {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=styles.css.map */
