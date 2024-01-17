@@ -45,10 +45,10 @@ header .user a {
   background-color: #F8934E;
 }
 
-.nav-link {
+.items-nav {
   color: white;
 }
-.nav-link:hover {
+.items-nav:hover {
   color: #F8934E;
 }
 
@@ -91,7 +91,7 @@ main {
 }
 .pagina-principal .card-blue:hover {
   border: 2px solid #D7DBEA;
-  margin: 1rem;
+  margin: 0.5rem;
   transition: 300ms;
 }
 .pagina-principal .card-orange {
@@ -103,28 +103,21 @@ main {
 }
 .pagina-principal .card-orange:hover {
   border: 2px solid rgba(248, 146, 78, 0.4156862745);
-  margin: 1rem;
+  margin: 0.5rem;
   transition: 300ms;
 }
 
 /*Footer*/
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  box-shadow: 0 1px 5px #D7DBEA;
+.footer {
+  color: #2F3684;
   border-top: 2px solid #2F3684;
+  box-shadow: 1px #D7DBEA;
+  height: 100px;
 }
-footer .copyright {
-  text-align: center;
-  font-size: 14px;
+.footer .item-footer {
   color: #2F3684;
 }
-footer .copyright .contacto-footer {
-  list-style-type: none;
-}
-footer .copyright .contacto-footer a {
+.footer .item-footer a, .footer .item-footer ul, .footer .item-footer li {
   color: #2F3684;
 }
 

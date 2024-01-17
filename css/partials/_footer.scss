@@ -1,25 +1,18 @@
  /*Footer*/
   
- footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    box-shadow: 0 1px 5px $colorAzulSecundario;
-    border-top: 2px solid $colorAzulPrincipal;
-
-    .copyright {
-      text-align: center;
-      font-size: 14px; 
+ .footer {
       color: $colorAzulPrincipal;
+      border-top: 2px solid $colorAzulPrincipal;
+      box-shadow: 1px $colorAzulSecundario;  
+      height: 100px; 
       
-      .contacto-footer {
-          list-style-type: none;
-
-          a {
-              color: $colorAzulPrincipal;
-            }
+      .item-footer {
+        color: $colorAzulPrincipal;
+          a, ul, li {
+            color: $colorAzulPrincipal;
+          }
       }
-       
-  }
-}
+
+   
+
+ }  

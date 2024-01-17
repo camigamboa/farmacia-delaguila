@@ -1,6 +1,7 @@
  /*Container Index*/
  main {
     min-height: 75vh;
+    
  }
  .pagina-principal {
     .card {
@@ -44,7 +45,7 @@
 
         &:hover {
             border: 2px solid $colorAzulSecundario;
-            margin: 1rem;
+            margin: 0.5rem;
             transition: 300ms;
         }
     }
@@ -58,10 +59,9 @@
 
         &:hover {
             border: 2px solid $colorNaranjaSecundario;
-            margin: 1rem;
+            margin: 0.5rem;
             transition: 300ms;
         }
     }
 
 }
-
