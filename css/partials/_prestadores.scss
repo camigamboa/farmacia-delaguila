@@ -1,24 +1,84 @@
 /*Prestadores*/
-  
-.list-prest {
-    display: flex;
-    margin-top: 1rem;
-
-    .link-ooss a{
-      color: $colorAzulPrincipal;
-      font-size: 20px;
-      
-      &:hover {
-          color: $colorNaranjaPrincipal;
-      }
-  }
-}
-
-.listado-img {
-    width: 500px;
-    float: right;
-}
 
 .title {
     color: $colorAzulPrincipal;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+
+.prestadores {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .tarjeta {
+        background-color: $colorAzulSecundario;
+        padding: 1rem;
+        box-shadow: 5px solid $colorAzulPrincipal;
+
+        a {
+            text-decoration: none;
+            color: $colorAzulPrincipal;
+        }
+
+    }
+
+    .prest {
+        width: 20%;
+    }
+
+    .prest:hover {
+        animation-name: agrandar;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-direction: normal;
+        animation-fill-mode: backwards;
+    }
+}
+
+@keyframes agrandar {
+    0% {
+        width: 20%;
+        background-color: $colorAzulSecundario;
+    }
+
+    50% {
+        width: 100%;
+        background-color: $colorNaranjaSecundario;
+    }
+
+    100% {
+        width: 20%;
+        background-color: $colorAzulSecundario;
+    }
+}
+
+  /**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
