@@ -184,6 +184,7 @@ tbody td, tbody th {
 /*Prestadores*/
 .title {
   color: #2F3684;
+  padding-left: 0.5rem;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
@@ -203,29 +204,22 @@ tbody td, tbody th {
 }
 .prestadores .prest {
   width: 20%;
+  transition: 1s;
 }
 .prestadores .prest:hover {
-  animation-name: agrandar;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-direction: normal;
-  animation-fill-mode: backwards;
+  width: 40%;
+  background-color: rgba(248, 146, 78, 0.4156862745);
+}
+.prestadores .prest-2 {
+  width: 20%;
+  background-color: rgba(248, 146, 78, 0.4156862745);
+  transition: 1s;
+}
+.prestadores .prest-2:hover {
+  width: 40%;
+  background-color: #D7DBEA;
 }
 
-@keyframes agrandar {
-  0% {
-    width: 20%;
-    background-color: #D7DBEA;
-  }
-  50% {
-    width: 100%;
-    background-color: rgba(248, 146, 78, 0.4156862745);
-  }
-  100% {
-    width: 20%;
-    background-color: #D7DBEA;
-  }
-}
 /**
 * ----------------------------------------
 * animation tracking-in-expand
@@ -331,18 +325,28 @@ tbody td, tbody th {
 
 .telefonos {
   padding: 0.5rem;
-  animation: scale-in-tl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  margin-top: 1rem;
 }
 .telefonos .card {
-  border: none;
   height: auto;
-  border: 1px solid #2F3684;
+  border: 2px solid #2F3684;
+  align-items: center;
+}
+.telefonos .card:hover {
+  border: 2px solid rgba(248, 146, 78, 0.4156862745);
+  margin: 0rem;
+  transition: 300ms;
 }
 .telefonos .card-title {
   font-weight: bold;
+  font-size: 25px;
 }
-.telefonos .card-body li {
+.telefonos .card-body li, .telefonos .card-body a {
   font-weight: bold;
+}
+.telefonos .card-body h5 {
+  text-align: center;
+  text-decoration: underline;
 }
 .telefonos .card-title, .telefonos .card-body, .telefonos .card {
   color: #2F3684;
@@ -360,23 +364,6 @@ tbody td, tbody th {
   width: 25px;
 }
 
-/**
- * ----------------------------------------
- * animation scale-in-tl
- * ----------------------------------------
- */
-@keyframes scale-in-tl {
-  0% {
-    transform: scale(0);
-    transform-origin: 0% 0%;
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    transform-origin: 0% 0%;
-    opacity: 1;
-  }
-}
 @media (max-width: 767px) {
   .second-nav {
     background-color: #fff;
@@ -413,5 +400,10 @@ tbody td, tbody th {
 @media (max-width: 805px) {
   .telefonos h5 {
     font-size: 16px;
+  }
+}
+@media (max-width: 378px) {
+  .footer {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=styles.css.map */

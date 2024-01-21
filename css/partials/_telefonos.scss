@@ -1,23 +1,38 @@
 .telefonos {
 
     padding: 0.5rem;
-    -webkit-animation: scale-in-tl 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-tl  1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    margin-top: 1rem;
+    
     
     .card {
-        border: none;
         height: auto;
-        border: 1px solid $colorAzulPrincipal;
+        border: 2px solid $colorAzulPrincipal;
+        align-items: center;
+
+        &:hover {
+            border: 2px solid $colorNaranjaSecundario;
+            margin: 0rem;
+            transition: 300ms;
+        }
+        
     }
 
     .card-title{
         font-weight: bold;
+        font-size: 25px;
+       
     }
 
     .card-body {
-        li {
+        li, a {
             font-weight: bold;
+            
         }
+        h5 {
+          text-align: center;
+          text-decoration: underline;
+        }
+      
      
     }
     .card-title, .card-body , .card {
@@ -25,6 +40,7 @@
         
         a {
             color: $colorAzulPrincipal;
+            
 
             &:hover {
                 color: $colorNaranjaPrincipal;
@@ -42,41 +58,4 @@
     }
 }
 
-/**
- * ----------------------------------------
- * animation scale-in-tl
- * ----------------------------------------
- */
- @-webkit-keyframes scale-in-tl {
-    0% {
-      -webkit-transform: scale(0);
-              transform: scale(0);
-      -webkit-transform-origin: 0% 0%;
-              transform-origin: 0% 0%;
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: 0% 0%;
-              transform-origin: 0% 0%;
-      opacity: 1;
-    }
-  }
-  @keyframes scale-in-tl {
-    0% {
-      -webkit-transform: scale(0);
-              transform: scale(0);
-      -webkit-transform-origin: 0% 0%;
-              transform-origin: 0% 0%;
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: 0% 0%;
-              transform-origin: 0% 0%;
-      opacity: 1;
-    }
-  }
-  
+

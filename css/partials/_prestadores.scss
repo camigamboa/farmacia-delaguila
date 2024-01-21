@@ -2,6 +2,7 @@
 
 .title {
     color: $colorAzulPrincipal;
+    padding-left: 0.5rem;
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -25,32 +26,25 @@
 
     .prest {
         width: 20%;
+        transition: 1s;
+      
+        &:hover {
+          width: 40%;
+          background-color: $colorNaranjaSecundario;     
+        }
     }
 
-    .prest:hover {
-        animation-name: agrandar;
-        animation-duration: 2s;
-        animation-timing-function: ease-in-out;
-        animation-direction: normal;
-        animation-fill-mode: backwards;
-    }
-}
-
-@keyframes agrandar {
-    0% {
-        width: 20%;
-        background-color: $colorAzulSecundario;
-    }
-
-    50% {
-        width: 100%;
-        background-color: $colorNaranjaSecundario;
-    }
-
-    100% {
-        width: 20%;
-        background-color: $colorAzulSecundario;
-    }
+    .prest-2 {
+      width: 20%;
+      background-color: $colorNaranjaSecundario;
+      transition: 1s;
+    
+      &:hover {
+        width: 40%;
+        background-color: $colorAzulSecundario;     
+      }
+  }
+   
 }
 
   /**
