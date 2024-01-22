@@ -17,10 +17,23 @@
      }
 }
 
-@media (max-width: 435px) {
-    .buscar {
-    display: none;
-    }
+@media (max-width: 435px) {      
+      .busqueda {
+          border: none;
+          background: transparent;
+          padding-left: 25px;
+          background-image: url(../../assets/search.svg);
+          background-size: 20px;
+          background-repeat: no-repeat;
+          width: 0px;
+          transition: all 0.1s;
+
+            &:focus {
+                outline: none;
+                width: 300px;
+            }
+          
+      }
     body {
         font-size: 1.2rem;
      }

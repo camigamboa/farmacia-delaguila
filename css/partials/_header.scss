@@ -3,18 +3,24 @@
 header {
     padding-top: 1rem;
     .buscar {
+        display: flex;
+        padding: 6px 12px 6px 14px;
         border-radius: 20px;
         border: 1px solid white;
         background: $colorAzulSecundario;
         box-shadow: $colorAzulSecundario;
         border-color: $colorAzulPrincipal;
+       
         }
       
       .busqueda {
           border: none;
-          background: transparent;
+          background: transparent; 
           padding-left: 25px;
-          
+          background-image: url(../../assets/search.svg);
+          background-size: 20px;
+          background-repeat: no-repeat;
+                   
       }
 
       .user a {
