@@ -2,7 +2,7 @@
   
  .form {
     color: $colorAzulPrincipal;
-  
+
     .formulario {
       margin-left: 0.5rem;
       margin-top: 0.5rem;
@@ -11,6 +11,18 @@
   .contact {
       border-color: $colorAzulPrincipal;
   }
+
+  .imagen {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+
+    .image-contact {
+      width: 500px;
+    }
+  }
+  
 }
 
 .btn-form {
@@ -30,3 +42,4 @@
     }
 }
 }
+

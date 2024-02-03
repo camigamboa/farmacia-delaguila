@@ -3,7 +3,10 @@
     padding: 0.5rem;
     margin-top: 1rem;
     
-    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
     .card {
         height: auto;
         border: 2px solid $colorAzulPrincipal;

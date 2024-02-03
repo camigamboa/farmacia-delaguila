@@ -62,17 +62,19 @@
 
    <!--Formulario-->
    <main class="form">
-    <div class="forms">
-    <form class="row-cols-md-3 formulario">
-      <div class="col-md-3">
+    <div class="container">
+    <div class="row my-4">
+    <div class="col-md-6">
+    <form class="formulario">
+      <div class="col">
         <label for="name" class="form-label">Nombre</label>
         <input type="text" class="form-control contact" id="name" required>
       </div>
-      <div class="col-md-3">
+      <div class="col">
         <label for="email" class="form-label">Correo</label>
         <input type="email" class="form-control contact" id="email" required>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <label for="farmacia" class="form-label">Farmacia</label>
         <select id="farmacia" class="form-select contact" required>
           <option selected>Del Águila</option>
@@ -81,15 +83,15 @@
           <option>Torcuato</option>
         </select>
       </div>
-      <div class="col-md-4">
+      <div class="col">
         <label for="motivo" class="form-label">Asunto</label>
         <input type="text" class="form-control contact" id="motivo" placeholder="" required>
       </div>
-      <div class="col-6 mb-3">
+      <div class="col mb-3">
         <label for="detalle" class="form-label">Detalle</label>
         <textarea class="form-control contact" id="detalle" rows="3"></textarea>
       </div>
-      <div class="col-6 mb-3">
+      <div class="col mb-3">
         <label class="subir" for="inputGroupFile02">Subir</label>
         <input type="file" class="form-control contact" id="inputGroupFile02">
       </div>
@@ -97,9 +99,13 @@
         <button type="submit" class="btn btn-primary">Enviar</button>
       </div>     
     </form>
+  </div>
+  <div class="col-md-6 imagen">
+    <img src="../assets/Forms-pana.png" class="image-contact" alt="">
+  </div>
     </div>
-
-    
+  </div>
+  
    </main>
 
   <!--Pie de Pagina-->
@@ -108,7 +114,7 @@
       <p class="col-md-4 mb-0 ">© 2023 Farmacias Del Águila</p>
   
       <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-        <img src="../assets/iconoaguilaon 1.svg" alt=logo farmacia">
+        <img src="../assets/iconoaguilaon 1.svg" alt="logo farmacia">
       </a>
   
       <ul class="nav col-md-4 justify-content-end item-footer">

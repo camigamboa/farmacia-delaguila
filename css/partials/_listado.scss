@@ -6,6 +6,10 @@
     .table-bordered {
       border-color: $colorAzulPrincipal;
     }
+
+    .primera-fila > tr {
+        text-align: center;
+    }
 }
 
 tbody {
@@ -24,7 +28,7 @@ tbody {
       font-weight: bold;
   }
 
-  td , th{
+ td , th {
       text-align: center;
   }
 }

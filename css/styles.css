@@ -59,7 +59,7 @@ header .user a {
 
 /*Container Index*/
 main {
-  min-height: 75vh;
+  min-height: 100vh;
 }
 
 .pagina-principal .card {
@@ -133,6 +133,9 @@ main {
 .table-responsive .table-bordered {
   border-color: #2F3684;
 }
+.table-responsive .primera-fila > tr {
+  text-align: center;
+}
 
 tbody .link-mandataria {
   text-decoration: none;
@@ -193,6 +196,19 @@ tbody td, tbody th {
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
+.prestador .container-fluid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.prestador .container-fluid .imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prestador .container-fluid .imagen .img-prest {
+  width: 500px;
+}
+
 .prestadores {
   display: flex;
   flex-direction: column;
@@ -208,20 +224,20 @@ tbody td, tbody th {
   color: #2F3684;
 }
 .prestadores .prest {
-  width: 20%;
+  width: 100%;
   transition: 1s;
 }
 .prestadores .prest:hover {
-  width: 40%;
+  width: 70%;
   background-color: rgba(248, 146, 78, 0.4156862745);
 }
 .prestadores .prest-2 {
-  width: 20%;
+  width: 100%;
   background-color: rgba(248, 146, 78, 0.4156862745);
   transition: 1s;
 }
 .prestadores .prest-2:hover {
-  width: 40%;
+  width: 70%;
   background-color: #D7DBEA;
 }
 
@@ -298,6 +314,15 @@ tbody td, tbody th {
 .form .contact {
   border-color: #2F3684;
 }
+.form .imagen {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3rem;
+}
+.form .imagen .image-contact {
+  width: 500px;
+}
 
 .btn-form .btn {
   border: 1px solid #2F3684;
@@ -331,6 +356,10 @@ tbody td, tbody th {
 .telefonos {
   padding: 0.5rem;
   margin-top: 1rem;
+}
+.telefonos .container {
+  display: flex;
+  justify-content: center;
 }
 .telefonos .card {
   height: auto;
@@ -421,5 +450,14 @@ tbody td, tbody th {
 @media (max-width: 378px) {
   .footer {
     font-size: 1rem;
+  }
+}
+@media (max-width: 1160px) {
+  .prestador .container-fluid {
+    display: grid;
+    grid-template-columns: 3fr;
+  }
+  .prestador .container-fluid .imagen {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
