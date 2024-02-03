@@ -414,6 +414,9 @@ tbody td, tbody th {
   body {
     font-size: 1.2rem;
   }
+  .form .imagen {
+    display: none;
+  }
 }
 @media (max-width: 435px) {
   .busqueda {
